@@ -1,3 +1,3 @@
-from revision import encode
+from neetcode150 import decode, encode
 
-encode(["neet","code","love","you"])
+print(decode(encode(["we","say",":","yes","!@#$%^&*()"])))
